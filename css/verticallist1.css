@@ -1,0 +1,35 @@
+.menu_div
+{
+width:200px;
+}
+.menu_div ul
+{
+    padding:8px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#FFF;
+    list-style:none;
+    text-indent:15px;
+    background:#333333;
+}
+.menu_div ul li
+{
+    background:#333333;
+    line-height:28px;
+    border-bottom:1px solid #000;
+}
+.menu_div ul li a
+{
+    text-decoration:none;
+    color:#FFF;
+    display:block;
+}
+.menu_div ul li a:hover
+{
+    background:#3ea5ea;
+}
+.menu_div ul li#active
+{
+    background:#3ea5ea;
+}

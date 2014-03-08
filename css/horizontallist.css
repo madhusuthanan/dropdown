@@ -1,0 +1,31 @@
+.menu_div ul
+{
+    padding:0px 0 0 10px;
+    margin:0px;
+    list-style:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    height:30px;
+    line-height:30px;
+    background:#000;
+}
+.menu_div ul li
+{
+    float:left;
+}
+.menu_div ul li a
+{
+    color:#FFF;
+    text-decoration:none;
+    padding: 2px 15px 2px 15px;
+}
+.menu_div ul li a:hover
+{
+    color:#FFF;
+    background:#c80202;
+}
+.menu_div ul li#active a
+{
+    color:#FFF;
+    background:#c80202;
+}
